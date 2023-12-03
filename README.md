@@ -1,9 +1,9 @@
 # JCasC
 JCasC stands for Jenkins Configuration as Code, in this project we will use JCasC plugin to make a preconfigured Jenkins instance running as a Docker container.
 ## Description
-This project aims to create and configure a kubernetes cluster on the cloud from scratch (the same principle can be applied in an on-premises infrastructure without needing a kubernetes service), so in this project you'll learn how to manage kubernetes components and understand more about kubernetes architecture and tools.
+If you’ve looked at the Jenkins configuration settings, you may have noticed that they can be somewhat cluttered. What’s more, since the configuration varies according to the plugins installed and their versions, your configuration may vary from one Jenkins server to another. The process of modifying a huge configuration page can then become frightening. What’s more, it makes no sense to have manual Jenkins configurations and coded Jenkins pipelines, with all the attendant problems - data loss, difficulty replicating configurations, lack of versioning and inability to track changes, to name but a few. There should be a simpler, more DevOps-oriented method, and that’s the subject of this sub-section, which is the creation of a fully pre-configured Jenkins instance using a Jenkins plugin called JCasC (Jenkins Configuration as Code). In fact, this Jenkins plugin has reduced manual intervention to zero thanks to a set of configuration files and scripted actions.
 
-## Project components and files + detailed description
+## Project components and files
 **Dockerfile:** this Dockerfile describes the custom Jenkins image we'll be working on.
 
 **plugins.txt:** In this file, you'll list the plugins you want. These plugins will be installed as soon as the custom Jenkins image is created.
