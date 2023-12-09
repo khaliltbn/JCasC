@@ -1,7 +1,7 @@
 # JCasC
 JCasC stands for Jenkins Configuration as Code, in this project we will use JCasC plugin to make a preconfigured Jenkins instance running as a Docker container.
 
-<img src="https://github.com/khaliltbn/JCasC/blob/master/READMEimages/JCasC.png" width="200" position=center/>
+<img src="https://github.com/khaliltbn/JCasC/blob/master/READMEimages/JCasC.png" width="200" />
 JCasC plugin logo
 
 ## Description
