@@ -1,7 +1,8 @@
 # JCasC
 JCasC stands for Jenkins Configuration as Code, in this project we will use JCasC plugin to make a preconfigured Jenkins instance running as a Docker container.
 
-<img src="https://github.com/khaliltbn/JCasC/blob/master/READMEimages/JCasC.png" width="200" />
+<img src="https://github.com/khaliltbn/JCasC/blob/master/READMEimages/JCasC.png" width="200" position=center/>
+JCasC plugin logo
 
 ## Description
 If you’ve looked at the Jenkins configuration settings, you may have noticed that they can be somewhat cluttered. What’s more, since the configuration varies according to the plugins installed and their versions, your configuration may vary from one Jenkins server to another. The process of modifying a huge configuration page can then become frightening. What’s more, it makes no sense to have manual Jenkins configurations and coded Jenkins pipelines, with all the attendant problems - data loss, difficulty replicating configurations, lack of versioning and inability to track changes, to name but a few. There should be a simpler, more DevOps-oriented method, and that’s the subject of this sub-section, which is the creation of a fully pre-configured Jenkins instance using a Jenkins plugin called JCasC (Jenkins Configuration as Code). In fact, this Jenkins plugin has reduced manual intervention to zero thanks to a set of configuration files and scripted actions.
